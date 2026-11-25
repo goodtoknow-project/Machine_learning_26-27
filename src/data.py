@@ -36,5 +36,5 @@ def load_raw(path: Path | str = RAW_PATH) -> pd.DataFrame:
 
 if __name__ == "__main__":
     df = load_raw()
-    print(f"Satır: {len(df):,}  Sütun: {df.shape[1]}")
-    print(f"İptal oranı: {df[TARGET].mean():.3f}")
+    print(f"Rows: {len(df):,}  Columns: {df.shape[1]}")
+    print(f"Cancellation rate: {df[TARGET].mean():.3f}")
