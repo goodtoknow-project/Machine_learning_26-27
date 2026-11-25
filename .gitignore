@@ -1,0 +1,23 @@
+# Veri ve modeller (GitHub'a yüklenmez)
+data/raw/*
+data/processed/*
+models/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!models/.gitkeep
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Sistem / editör
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
